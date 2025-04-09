@@ -11,6 +11,6 @@ A starter backend template for building scalable server-side applications.
 ```bash
 # Create a folder and navigate into it
 mkdir backend-template && cd backend-template
-
+s
 # Clone this repo
-git clone https://your-repo-url.git .
+git clone https://github.com/mahajanmayur06.git
