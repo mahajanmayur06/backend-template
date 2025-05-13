@@ -4,9 +4,9 @@ const cookieParser = require('cookie-parser')
 const cors = require('cors')
 require("dotenv").config()
 
-const corsOptions = require('./config/corsOptions');
+const corsOptions = require('./configs/corsOptions');
 const credentials = require('./middlewares/credentials');
-const dbConnect = require("./config/dbConn")
+const dbConnect = require("./configs/dbConn")
 
 const app = express()
 dbConnect()
